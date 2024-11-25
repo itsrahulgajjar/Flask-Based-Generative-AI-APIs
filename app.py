@@ -210,7 +210,8 @@ def judgement_summary():
         return jsonify({'message': 'Unauthorized'}), 401 
     
     data = request.get_json()
-    file_name = data["file_name"]
+    file = data["file_name"]
+    file_name = f"{file}.mp3"
 
     try:
         text = ""

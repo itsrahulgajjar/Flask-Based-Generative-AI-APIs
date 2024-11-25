@@ -12,7 +12,7 @@ This project provides a set of APIs leveraging Flask, Generative AI models, and 
 3. **Similar Text API**
    - Finds similarities between two input paragraphs and generates text reflecting the similarity.
 
-4. **Judgement Summary API**
+4. **Summary API**
    - Extracts text from a PDF and generates a concise summary using AI-driven summarization techniques.
 
 ---
@@ -44,7 +44,7 @@ This project provides a set of APIs leveraging Flask, Generative AI models, and 
 2. Create a virtual environment:
    ```bash
    python -m venv env
-   .\.env\Scripts\activate
+   .\venv\Scripts\activate
    ```
 
 3. Install dependencies:
@@ -88,7 +88,7 @@ This project provides a set of APIs leveraging Flask, Generative AI models, and 
   ```
 
 ### 2. **Paragraph Heading API**
-- **Endpoint**: `/generate-heading`
+- **Endpoint**: `/paragraph-heading`
 - **Method**: `POST`
 - **Input**:
   ```json
